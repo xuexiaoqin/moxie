@@ -57,6 +57,16 @@ int main()
         }
         if (code == 3)
         {
+            printf("显示所有车辆位置\n");
+
+            for (int i = 0; i < index; i++)
+            {
+                printf("车辆位置信息如下(%d,%d)\n", arr[i].x, arr[i].y);
+            }
+            printf("显示成功，点击回车继续\n");
+            char m;
+            scanf("%c", &m);
+            scanf("%c", &m);
         }
         if (code == 4)
         {

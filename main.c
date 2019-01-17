@@ -39,6 +39,21 @@ int main()
         }
         if (code == 2)
         {
+            if (index > 0)
+            {
+                index--;
+                printf("删除成功，点击回车继续\n");
+                char m;
+                scanf("%c", &m);
+                scanf("%c", &m);
+            }
+            else
+            {
+                printf("无车辆信息，点击回车继续\n");
+                char m;
+                scanf("%c", &m);
+                scanf("%c", &m);
+            }
         }
         if (code == 3)
         {
